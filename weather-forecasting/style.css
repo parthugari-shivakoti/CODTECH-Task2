@@ -1,0 +1,105 @@
+body{
+    text-align: center;
+    /* align-items: center; */
+    display: inline;
+    /* flex-direction: column; */
+    justify-content: center;
+    background-image: url(images/earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.container{
+    background-image:linear-gradient(to right,rgb(74, 74, 201,0.4),rgb(40, 182, 186,0.5)) ;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 9px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 4px 4px rgb(3, 0, 4);
+    border-radius: 10px;
+    position: absolute;
+    right: 550px;
+}
+.container1{
+    background-image:linear-gradient(to right,rgb(74, 74, 201,0.4),rgb(40, 182, 186,0.9)) ;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 9px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 4px 4px rgb(3, 0, 4);
+    border-radius: 10px;
+    position: absolute;
+    right: 190px;
+    top: 400px;
+}
+
+.search-icon{
+    width: 30px;
+}
+h1{
+    color: aliceblue;
+    text-shadow: 2px 2px red;
+}
+.input{
+    height: 30px;
+    border: 3px outset black ;
+    border-radius: 20px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.weather-days{
+    display: flex;
+    gap: 100px;
+}
+
+.weather-icon,.weather-icon1,.weather-icon2,.weather-icon3,.weather-icon4,.weather-icon5{
+    width: 60px;
+    padding: 0%;
+    align-items: center;
+}
+.celcius{
+    padding: 0%;
+    margin: 0%;
+}
+.search button{
+    background-color: rgba(54, 84, 233, 0.1);
+    border-radius: 100%;
+    cursor: pointer;
+}
+.description{
+    padding-top:0 ;
+    margin-top: 0;
+    color: aliceblue;
+    text-shadow: 1px 2px rgb(0, 255, 26);
+}
+h3{
+    color: white;
+    text-shadow: 1px 1px rgb(0, 255, 0);
+}
+.day1,.day2,.day3,.day4,.day5{
+    border: 2px solid green;
+    margin: 0px 0px 20px -10px;
+    width: 150px;
+    box-shadow: 2px 2px rgb(217, 230, 28);
+    background-color: rgb(36, 75, 75,0.5);
+    border-radius: 0px 15px 0px 15px;
+    text-wrap: stable;
+}
