@@ -34,8 +34,10 @@ The application supports the following key activities:
 - **OpenWeather API:** Used to retrieve current weather data for a given location.
 
 ## OUTPUT OF THE PROJECT
-![Screenshot 2024-09-27 021321](https://github.com/user-attachments/assets/614f003c-6760-4a26-af02-f99c4f37c8da)
-![Screenshot 2024-09-27 021357](https://github.com/user-attachments/assets/dfb29a66-c145-46a5-ad7a-75f1079f2773)
+
+![Screenshot 2025-02-16 024300](https://github.com/user-attachments/assets/0e21adda-7864-41a0-b8fe-fb255a8a81f8)
+![Screenshot 2025-02-16 024634](https://github.com/user-attachments/assets/e8014d04-bbfe-4282-9216-b7464f8f5e3d)
+
 
 
 
