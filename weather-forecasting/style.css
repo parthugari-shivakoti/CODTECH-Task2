@@ -8,8 +8,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;  
 }
+.search-btn{
+    border: none;
+}
 .container{
-    background-image:linear-gradient(to right,rgb(74, 74, 201,0.4),rgb(40, 182, 186,0.5)) ;
+    background-image:linear-gradient(to right,rgb(74, 74, 201,0.4),rgb(40, 182, 186,1)) ;
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -17,14 +20,14 @@ body{
     align-items: center;
     text-align: center;
     gap: 9px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(133, 98, 2);
     box-shadow: 4px 4px rgb(3, 0, 4);
     border-radius: 10px;
     position: absolute;
     right: 550px;
 }
 .container1{
-    background-image:linear-gradient(to right,rgb(74, 74, 201,0.4),rgb(40, 182, 186,0.9)) ;
+    background-image:linear-gradient(to right,rgb(74, 74, 201,0.4),rgb(40, 182, 186,0.2)) ;
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -32,7 +35,7 @@ body{
     align-items: center;
     text-align: center;
     gap: 9px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(35, 198, 13);
     box-shadow: 4px 4px rgb(3, 0, 4);
     border-radius: 10px;
     position: absolute;
@@ -42,6 +45,8 @@ body{
 
 .search-icon{
     width: 30px;
+    background-color: rgb(212, 111, 28);
+    border-radius: 70%;
 }
 h1{
     color: aliceblue;

@@ -33,11 +33,11 @@ async function weatherFetch(city) {
 async function updateForecastInfo(city) {
     const forecastData =await weatherFetch(city);
 
-    document.querySelector('.celcius1').innerHTML = forecastData.list[0].main.temp;
-    document.querySelector('.celcius2').innerHTML = forecastData.list[8].main.temp;
-    document.querySelector('.celcius3').innerHTML = forecastData.list[16].main.temp;
-    document.querySelector('.celcius4').innerHTML = forecastData.list[24].main.temp;
-    document.querySelector('.celcius5').innerHTML = forecastData.list[32].main.temp;
+    document.querySelector('.celcius1').innerHTML = forecastData.list[0].main.temp+" ℃";
+    document.querySelector('.celcius2').innerHTML = forecastData.list[8].main.temp+" ℃";
+    document.querySelector('.celcius3').innerHTML = forecastData.list[16].main.temp+" ℃";
+    document.querySelector('.celcius4').innerHTML = forecastData.list[24].main.temp+" ℃";
+    document.querySelector('.celcius5').innerHTML = forecastData.list[32].main.temp+" ℃";
 
     document.querySelector('.Time1').innerHTML = forecastData.list[0].dt_txt.split(' ')[0];
     document.querySelector('.Time2').innerHTML = forecastData.list[8].dt_txt.split(' ')[0];
@@ -56,9 +56,15 @@ async function updateForecastInfo(city) {
     document.querySelector('.weather-icon3').src = "images/"+forecastData.list[16].weather[0].icon+".png";
     document.querySelector('.weather-icon4').src = "images/"+forecastData.list[24].weather[0].icon+".png";
     document.querySelector('.weather-icon5').src = "images/"+forecastData.list[32].weather[0].icon+".png";
+    console.log(forecastData.list[0].weather[0].icon);
+    console.log(forecastData.list[8].weather[0].icon);
+    console.log(forecastData.list[16].weather[0].icon);
+    console.log(forecastData.list[24].weather[0].icon);
+    console.log(forecastData.list[32].weather[0].icon);
 
     console.log(forecastData)
 } 
+
 
 
 
