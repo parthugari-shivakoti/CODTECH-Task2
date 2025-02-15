@@ -35,7 +35,11 @@ The application supports the following key activities:
 
 ## OUTPUT OF THE PROJECT
 
+Delhi Weather-ForeCast
+
 ![Screenshot 2025-02-16 024300](https://github.com/user-attachments/assets/0e21adda-7864-41a0-b8fe-fb255a8a81f8)
+
+Tokyo Weather-Forecast
 ![Screenshot 2025-02-16 024634](https://github.com/user-attachments/assets/e8014d04-bbfe-4282-9216-b7464f8f5e3d)
 
 
